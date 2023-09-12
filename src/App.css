@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: hsla(0, 3%, 78%, 0.484);
+font-style: inherit;
+}
+
+/* h1{
+  position: relative;
+  top: 60px;
+  left: 30px;
+  font-size: 50px; 
+} */
+.style-img{
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 190px;
+  bottom: 15px;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 30px;
+}
+.center-container{
+  height: 450px;
+  width: 350px;
+  /* border: 2px solid black; */
+  align-items: center;
+
+}
+.app-heading{
+  position: relative;
+  top: 60px;
+  left: 30px;
+  font-size: 50px; 
+  color: rgb(19, 108, 196);  
+  /* text-align: center; */
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.input-box-todo{
+  margin-left: 10px;
+  background-color: whitesmoke;
+  width: 82%;
+  height: 40px;
+  border-radius: 7rem;
+  border:2px solid  hwb(0 62% 37%);
+  padding-left: 10px;  
+  box-shadow: 1px 5px 0px rgba(0,0,0,0.3);
+  outline: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
+.add-btn{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  border:none;
+  background-color:#316fc1;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  margin-left: 10px;  
+  cursor: pointer;
+  box-shadow: 1px 5px 0px 0px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+.add-btn:active{
+  box-shadow: none;
+}
+.list-container{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.list-item{
+  list-style-type: none;
+  border:3px solid hwb(0 62% 37%);
+  color:black;
+  padding:3px;
+  padding-left: 20px;
+  border-radius: 7rem;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+li.list-item {
+  width: 90%;
+  background-color: whitesmoke;
+  box-shadow: 1px 5px 0px 0px rgba(0,0,0,0.3);
+
+}
+.icons{
+  position: absolute;
+  right: 10px;
+}
+.icons i{
+  margin: 4px;
+  font-size: large;
+  cursor: pointer;
+  transition: 0.1s;   
+}
+.icons i:hover{
+  transform: scale(1.2);  
+}
+.icon-delete:hover{
+  color: red;
+}
+ 
